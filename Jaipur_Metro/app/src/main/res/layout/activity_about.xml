@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    android:background="@drawable/img">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Jaipur Metro Rail.com is an unofficial informational website which provides information, news and updates, current openings, facilities, fair updates and other services.
+Our major concern is to aware our visitors at maximum as we can and deliver the best updates regarding Jaipur Metro Rail."
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:background="#ffffff"
+        android:textStyle=""/>
+
+</LinearLayout>

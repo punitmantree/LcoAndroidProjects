@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Other"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="50dp"
+    android:background="@drawable/img1">
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:textStyle="italic"
+        android:textAlignment="gravity"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/parking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parking"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:textStyle="italic"
+        android:textAlignment="gravity"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/hospital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospitals"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:textStyle="italic"
+        android:textAlignment="gravity"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/police"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Police Station"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:textStyle="italic"
+        android:textAlignment="gravity"/>
+</LinearLayout>

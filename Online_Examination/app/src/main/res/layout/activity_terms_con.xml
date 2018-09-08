@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TermsCon"
+    android:orientation="vertical"
+    android:paddingTop="150dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="@drawable/splash">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdgp">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="C"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:tag="C"/>
+
+        <RadioButton
+            android:tag="Java"
+            android:layout_marginTop="10dp"
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Java"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:tag="Android"
+            android:layout_marginTop="10dp"
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Android"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="I accept the Terms and Conditions" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/acceptbutton"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Exam"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp" />
+
+
+</LinearLayout>

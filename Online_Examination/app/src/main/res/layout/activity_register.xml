@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/splash">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:fontFamily="@font/pacifico"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/fn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="first name" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/ln"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="last name" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/un"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Username" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/pas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Password" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/cpas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ReEnter Password" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/sigup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/pacifico"
+        android:textSize="20dp"
+        android:background="@drawable/design"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
+</LinearLayout>

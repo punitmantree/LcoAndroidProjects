@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/splash">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register &amp; SignIn"
+        android:fontFamily="@font/pacifico"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        />
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter UserName"
+        android:drawableLeft="@drawable/ic_action_user"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Password"
+        android:drawableLeft="@drawable/ic_action_name"
+        />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/quicksand_bold"
+        android:textSize="20dp"
+        android:background="@drawable/design"
+        android:layout_marginLeft="105dp"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/admin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/quicksand_bold"
+        android:textSize="20dp"
+        android:background="@drawable/design"
+        android:layout_marginLeft="105dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+
+        android:text="-----------------------------------or----------------------------------"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/pacifico"
+        android:textSize="20dp"
+        android:background="@drawable/design"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
+
+</LinearLayout>
